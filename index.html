@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>有点意思</title>
+    <meta name="description" content="Slaron —— 瞎写一些记录成长。">
+    <meta name="keyword" content="Slaron 个人博客 学习资料 小知识 小技巧 记录成长">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="./css/onepice.min.css">
+    <meta name="referrer" content="origin">
+</head>
+
+<body>
+<div class="body-inner">
+<header class="header">
+    <div class="header-inner">
+        <div class="site-meta">
+            <div class="brand">
+                <div class="brand-before-line"></div>
+                <a id="project_tagline">穷则独善其身，富则妻妾成群</a>
+                
+                <div class="brand-before-line"></div>
+            </div>
+        </div>
+        <div class="site-nav" id="SiteMenu">
+            <form action="" onsubmit="return find()">
+                <input type="search" placeholder="文章标题" id="search" onblur="find(this)" results="s" />
+            </form>
+            <ul class="nav">
+                <li class="nav-home nav-current" role="presentation"><a href="#">Home</a></li>
+                <li class="nav-home nav-current" role="presentation"><a href="play.html">Play</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- 列表开始 -->
+<section class="main">
+    <div class="main-inner">
+        <div class="content" id="main_content_wrap"></div>
+    </div>
+</section>
+<!-- 列表结束 -->
+
+<!-- 尾部start -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="copyright">
+             ©
+            <span class="copy-year">2017</span>
+           
+            <span class="copy-author">Slaron版权所有</span>
+            <img src="./images/beian.png"> 
+            <a href="http://www.miitbeian.gov.cn/" target="_blank" id="ba">粤ICP备 17019287号</a>
+        </div>
+    </div>
+</footer>
+<!-- 尾部end -->
+</div>
+
+<script type="text/javascript" src="./js/jquery1.11.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
+<script>
+    var ba = document.getElementById('ba')
+    ba.onmouseover = function()
+    {
+        ba.style.textDecoration = 'underline';
+    }
+    ba.onmouseout = function()
+    {
+        ba.style.textDecoration = '';
+    }
+    </script>
+</body>
+</html>

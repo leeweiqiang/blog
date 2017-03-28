@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>有点意思</title>
+    <meta name="description" content="Slaron —— 瞎写一些记录成长。">
+    <meta name="keyword" content="Slaron 个人博客 学习资料 小知识 小技巧 记录成长">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/onepice.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/post.css">
+    <meta name="referrer" content="origin">
+</head>
+
+<body>
+<div class="body-inner">
+<header class="header">
+    <div class="header-inner">
+        <div class="site-meta">
+            <div class="brand">
+                <div class="brand-before-line"></div>
+                <a id="project_tagline">穷则独善其身，富则妻妾成群</a>
+                
+                <div class="brand-before-line"></div>
+            </div>
+        </div>
+        <div class="site-nav" id="SiteMenu">
+            <ul class="nav">
+                <li class="nav-home nav-current" role="presentation"><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </div>
+</header>   
+
+    <section class="main">
+        <div class="main-inner">
+            <div class="content">
+
+                <article class="widget post">
+                    <header class="widget-header">
+                        <h2 class="widget-title"> <a></a> </h2>
+                        <div class="widget-meta">
+                            <span>发表于</span>
+                            <span class="divider">/</span>
+                        </div>
+                        <div class="hr-line"></div>
+                    </header>
+                    <section class="widget-body">
+                        
+                    </section>
+                </article>
+                 <div class="post-navigation">
+                </div>
+                
+                <div class="post-comment">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 小模态框 -->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <form onsubmit="return reply(this)">
+            <input type="hidden" name="rid" />
+            <input type="text" class="form-control" name="name" placeholder="昵称">
+            <textarea class="form-control" rows="3" placeholder="回复内容"></textarea>
+            <button class="btn">写好了</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- 小模态框 -->
+             
+
+<!-- 按钮 start -->
+<div class="position-btn text-info" onclick="pao(true)"><i class="glyphicon glyphicon-arrow-up"></i>顶部</div>
+<div class="position-btn text-info" onclick="pao(false)" style="margin-top:50px"><i class="glyphicon glyphicon-arrow-down"></i>底部</div>
+<!-- 按钮 end -->
+
+<!-- 尾部start -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="copyright">
+             ©
+            <span class="copy-year">2017</span>
+           
+            <span class="copy-author">Slaron版权所有</span>
+            <img src="./images/beian.png"> 
+            <a href="http://www.miitbeian.gov.cn/" id="ba" target="_blank">粤ICP备 17019287号</a>
+        </div>
+    </div>
+</footer>
+<!-- 尾部end -->
+</div>
+
+<script type="text/javascript" src="./js/jquery1.11.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/post.js"></script>
+<script>
+    var ba = document.getElementById('ba')
+    ba.onmouseover = function()
+    {
+        ba.style.textDecoration = 'underline';
+    }
+    ba.onmouseout = function()
+    {
+        ba.style.textDecoration = '';
+    }
+    </script>
+</body>
+</html>
